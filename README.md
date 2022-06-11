@@ -317,7 +317,18 @@ int main()
     // tight SVD
     svd.tight_svd();
     cout<<endl;
-    display_matrix(matrix_multiply(matrix_multiply(svd.U,svd.S),transpose(svd.V)));
+    cout<<"matrix A:"<<endl;
+    display_matrix(A);
+    cout<<endl;
+    cout<<"matrix U:"<<endl;
+    display_matrix(svd.U);
+    cout<<endl;
+    cout<<"matrix Sigma:"<<endl;
+    display_matrix(svd.S);
+    cout<<endl;
+    cout<<"matrix V':"<<endl;
+    display_matrix(transpose(svd.V));
+    //display_matrix(matrix_multiply(matrix_multiply(svd.U,svd.S),transpose(svd.V)));//合成A
 }
 ```
 测试结果
