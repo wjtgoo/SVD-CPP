@@ -128,7 +128,7 @@ void eigen(vector<vector<T>> arr, vector<vector<T>> &E, vector<T> &e)
                 }
             }
         }
-        double theta = 0.5*atan2(2 * arr[row][col] , (arr[row][row] - arr[col][col]));
+        double theta = 0.5*atan2(-2 * arr[row][col] , -(arr[row][row] - arr[col][col]));
         //update arr
         double aii = arr[row][row];
         double ajj = arr[col][col];

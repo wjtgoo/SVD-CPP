@@ -2,6 +2,7 @@
 6月10日，风雨大作。。。（好吧雨早停了）
 一时兴起，想着好久没敲过CPP了，最近正好打算复习一下《统计学习方法》，本来想看看PCA来着，一打眼瞅到了SVD。。。SVD是一个比较基础的矩阵分解法，后边的PCA还会用到，所以干脆计划了晚上小小复习一下SVD，然后用久违的CPP实现一下，谁料想本以为挺早就能下班的，一直写到第二天下午。。。。太菜了！！！！但是实现完后还是挺开心的，因此记录一下这一天多的成果。
 由于GitHub显示公式不方便，可以到CSDN上看：[https://blog.csdn.net/weixin_45804601/article/details/125237191](https://blog.csdn.net/weixin_45804601/article/details/125237191)
+
 ## 关于SVD
 个人以为SVD好用就是好用在条件弱，效果好，任意的实矩阵都能进行SVD，理论依据如下：
 ### 奇异值分解定理
@@ -332,5 +333,5 @@ int main()
 }
 ```
 测试结果
-![测试结果](https://img-blog.csdnimg.cn/969370a5bdf5493f9272becb28ae9f9f.png)
+![测试结果](https://img-blog.csdnimg.cn/bfa5239f5ec1433aa12cfbe4a8d13e41.png)
 
