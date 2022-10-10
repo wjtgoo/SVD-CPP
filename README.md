@@ -332,6 +332,7 @@ int main()
     //display_matrix(matrix_multiply(matrix_multiply(svd.U,svd.S),transpose(svd.V)));//合成A
 }
 ```
-测试结果
+测试结果<br>
+
 ![测试结果](https://img-blog.csdnimg.cn/bfa5239f5ec1433aa12cfbe4a8d13e41.png)
 
